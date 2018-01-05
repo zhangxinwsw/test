@@ -18,9 +18,11 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //第二次
+                //第三次
                 Intent intent=new Intent(MainActivity.this,FirstActivity.class);
                 startActivity(intent);
+                Toast.makeText(MainActivity.this,"跳转成功!",Toast.LENGTH_SHORT)
+                        .show();
             }
         });
     }
