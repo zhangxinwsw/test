@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 //第三次
                 Intent intent=new Intent(MainActivity.this,FirstActivity.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"跳转!",Toast.LENGTH_SHORT)
+                Toast.makeText(MainActivity.this,"您已经点击过了!",Toast.LENGTH_SHORT)
                         .show();
             }
         });
