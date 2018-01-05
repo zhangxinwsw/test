@@ -1,5 +1,6 @@
 package com.example.administrator.gitplay;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //第一次
-                Toast.makeText(MainActivity.this,"您已经点击！",Toast.LENGTH_SHORT)
-                        .show();
+                //第二次
+                Intent intent=new Intent(MainActivity.this,FirstActivity.class);
+                startActivity(intent);
             }
         });
     }

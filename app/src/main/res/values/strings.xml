@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">gitplay</string>
     <string name="click">点击跳转</string>
+    <string name="detail">我是第一个页面文字说明</string>
 </resources>
