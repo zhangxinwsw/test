@@ -18,11 +18,9 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //第三次
+                //第二次jhgjh
                 Intent intent=new Intent(MainActivity.this,FirstActivity.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"您已经点击过了!",Toast.LENGTH_SHORT)
-                        .show();
             }
         });
     }
